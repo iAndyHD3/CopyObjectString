@@ -36,7 +36,7 @@ class $modify(EditorPauseLayerExt, EditorPauseLayer)
     {
         if (!EditorPauseLayer::init(p0)) return false;
 
-        auto spr = CCSprite::createWithSpriteFrameName("GJ_copyBtn2_001.png");
+        auto spr = CCSprite::create("copybtn.png"_spr);
         auto btn = CCMenuItemSpriteExtra::create(spr, this, menu_selector(EditorPauseLayerExt::onCopyObjectString));
         btn->setID("copy-object-string"_spr);
         auto menu = getChildByID("guidelines-menu");
