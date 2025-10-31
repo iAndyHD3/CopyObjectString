@@ -1,0 +1,14 @@
+{
+	"geode": "4.8.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "iandyhd3.copy_level_string",
+	"name": "Copy Level String",
+	"version": "v1.0.0",
+	"developer": "iAndyHD3",
+	"description": ""
+}
